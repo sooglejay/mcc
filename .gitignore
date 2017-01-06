@@ -1,8 +1,8 @@
 # Created by .ignore support plugin (hsz.mobi)
 ### OpenCart template
 .htaccess
-/config.php
-admin/config.php
+!config.php
+!admin/config.php
 
 !index.html
 phpmyadmin
