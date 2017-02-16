@@ -1,5 +1,5 @@
 <?php
-// Version
+// Version 1.6.0.1  by jerry
 define('VERSION', '1.6.0.1');
 
 // Configuration
