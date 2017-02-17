@@ -17,6 +17,10 @@ README.md
 
 system/storage/
 
+
+admin/config.php
+config.php
+
 # vQmod log files
 vqmod/logs/*
 # vQmod cache files
