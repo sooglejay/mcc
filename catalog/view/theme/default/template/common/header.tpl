@@ -93,12 +93,14 @@
 <header>
     <div class="container">
         <div class="row">
-            <div class="col-sm-2">
+
+            <div class="col-sm-4" id="logo">
+                <div>
                 <span style="color: green; font-size: x-large">
                     鲜鱻易购
                 </span>
-            </div>
-            <div class="col-sm-2" id="logo">
+                </div>
+
                 <?php if ($logo) { ?>
                 <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>"
                                                     alt="<?php echo $name; ?>" class="img-responsive"/></a>
