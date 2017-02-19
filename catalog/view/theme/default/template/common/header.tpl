@@ -81,6 +81,8 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-4">
+        <h1 style="color: green">    鲜鱻易购
+        </h1>
         <div id="logo">
           <?php if ($logo) { ?>
           <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
