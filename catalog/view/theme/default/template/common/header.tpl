@@ -93,24 +93,21 @@
 <header>
     <div class="container">
         <div class="row">
-
-            <div class="col-sm-4" id="logo">
-                <div>
-                <span style="color: green; font-size: x-large">
-                    鲜鱻易购
-                </span>
-                </div>
-
+            <div class="col-sm-2">
+                <i style="width: 50px;height: 25px;font-size: 30px;color: green">鲜鱻易购xxeasygo</i>
+            </div>
+            <div class="col-sm-1" id="logo">
                 <?php if ($logo) { ?>
-                <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>"
+                <a href="<?php echo $home; ?>"><img style="height: inherit" src="<?php echo $logo; ?>"
+                                                    title="<?php echo $name; ?>"
                                                     alt="<?php echo $name; ?>" class="img-responsive"/></a>
                 <?php } else { ?>
                 <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
                 <?php } ?>
             </div>
-            <div class="col-sm-4"><?php echo $search; ?>
+            <div class="col-sm-6"><?php echo $search; ?>
             </div>
-            <div class="col-sm-4"><?php echo $cart; ?></div>
+            <div class="col-sm-2"><?php echo $cart; ?></div>
         </div>
     </div>
 </header>
