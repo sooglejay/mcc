@@ -7,18 +7,18 @@
   </ul>
   <div class="row"><?php echo $column_left; ?>
     <?php if ($column_left && $column_right) { ?>
-    <?php $class = 'col-sm-6'; ?>
+    <?php $class = 'col-md-6'; ?>
     <?php } elseif ($column_left || $column_right) { ?>
-    <?php $class = 'col-sm-9'; ?>
+    <?php $class = 'col-md-9'; ?>
     <?php } else { ?>
-    <?php $class = 'col-sm-12'; ?>
+    <?php $class = 'col-md-12'; ?>
     <?php } ?>
     <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
       <div class="row">
         <?php if ($column_left || $column_right) { ?>
-        <?php $class = 'col-sm-6'; ?>
+        <?php $class = 'col-md-6'; ?>
         <?php } else { ?>
-        <?php $class = 'col-sm-8'; ?>
+        <?php $class = 'col-md-8'; ?>
         <?php } ?>
         <div class="<?php echo $class; ?>">
           <?php if ($thumb || $images) { ?>
@@ -50,7 +50,7 @@
                 <?php foreach ($attribute_groups as $attribute_group) { ?>
                 <thead>
                   <tr>
-                    <td colspan="24"><strong><?php echo $attribute_group['name']; ?></strong></td>
+                    <td colspan="2"><strong><?php echo $attribute_group['name']; ?></strong></td>
                   </tr>
                 </thead>
                 <tbody>
@@ -72,20 +72,20 @@
                 <h2><?php echo $text_write; ?></h2>
                 <?php if ($review_guest) { ?>
                 <div class="form-group required">
-                  <div class="col-sm-12">
+                  <div class="col-md-12">
                     <label class="control-label" for="input-name"><?php echo $entry_name; ?></label>
                     <input type="text" name="name" value="<?php echo $customer_name; ?>" id="input-name" class="form-control" />
                   </div>
                 </div>
                 <div class="form-group required">
-                  <div class="col-sm-12">
+                  <div class="col-md-12">
                     <label class="control-label" for="input-review"><?php echo $entry_review; ?></label>
                     <textarea name="text" rows="5" id="input-review" class="form-control"></textarea>
                     <div class="help-block"><?php echo $text_note; ?></div>
                   </div>
                 </div>
                 <div class="form-group required">
-                  <div class="col-sm-12">
+                  <div class="col-md-12">
                     <label class="control-label"><?php echo $entry_rating; ?></label>
                     &nbsp;&nbsp;&nbsp; <?php echo $entry_bad; ?>&nbsp;
                     <input type="radio" name="rating" value="1" />
@@ -114,9 +114,9 @@
           </div>
         </div>
         <?php if ($column_left || $column_right) { ?>
-        <?php $class = 'col-sm-6'; ?>
+        <?php $class = 'col-md-6'; ?>
         <?php } else { ?>
-        <?php $class = 'col-sm-4'; ?>
+        <?php $class = 'col-md-4'; ?>
         <?php } ?>
         <div class="<?php echo $class; ?>">
           <div class="btn-group">
@@ -325,11 +325,11 @@
         <?php $i = 0; ?>
         <?php foreach ($products as $product) { ?>
         <?php if ($column_left && $column_right) { ?>
-        <?php $class = 'col-xs-8 col-sm-6'; ?>
+        <?php $class = 'col-xs-8 col-md-6'; ?>
         <?php } elseif ($column_left || $column_right) { ?>
         <?php $class = 'col-xs-6 col-md-4'; ?>
         <?php } else { ?>
-        <?php $class = 'col-xs-6 col-sm-3'; ?>
+        <?php $class = 'col-xs-6 col-md-3'; ?>
         <?php } ?>
         <div class="<?php echo $class; ?>">
           <div class="product-thumb transition">
