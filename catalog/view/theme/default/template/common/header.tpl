@@ -96,7 +96,7 @@
             <div class="col-sm-2">
                 <i style="width: 50px;height: 25px;font-size: 30px;color: green">鲜鱻易购xxeasygo</i>
             </div>
-            <div class="col-sm-1" id="logo">
+            <div class="col-sm-2" id="logo">
                 <?php if ($logo) { ?>
                 <a href="<?php echo $home; ?>"><img style="height: inherit" src="<?php echo $logo; ?>"
                                                     title="<?php echo $name; ?>"
